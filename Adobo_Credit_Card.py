@@ -24,7 +24,15 @@ st.caption("These are the five components of the methodology. Problem Scoping wa
 st.markdown("---")
 
 st.image('adobo_clients.png')
-st.caption("Who are the Adobo clients? Based on 100,000 transaction data points obtained from January 2020 to December 2021, ACC was observed to have 94 unique clients. The majority of these customers are male, making up 93.6%, and range from 51-95 years old. They live in 172 cities across the Philippines, with the greatest percentage in Luzon, followed by Mindanao then Visayas.")
+st.caption("Who are the Adobo clients? Based on 100,000 transaction data points obtained from January 2020 to December 2021, ACC was observed to have 94 unique clients. The majority of these customers are male, making up 93.6%, and range from 51-95 years old. They live in 60 cities across the Philippines, with the greatest percentage in Luzon, followed by Mindanao then Visayas.")
+st.markdown("---")
+
+st.image('limitations.png')
+st.caption("Limitations")
+st.markdown("---")
+
+st.image('demographic.png')
+st.caption("Demographic")
 st.markdown("---")
 
 
