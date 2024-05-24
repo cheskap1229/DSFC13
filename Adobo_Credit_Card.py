@@ -14,13 +14,13 @@ st.subheader("Risk-Profiling Objectives:")
 st.markdown("In classifying the clients of Adobo Credit Card according to their churn risk, valuable insights on the clients can be obtained based on the following areas.")
 
 st.markdown("Spending Behavior:")
-st.caption("Spending frequency, Seasonal spending trends and patterns, Categorical budget allocation, Payment mode preferences")
+st.caption("Spending frequency (how often is this customer making a transaction?), Seasonal spending trends (are there any abrupt changes in spending habits across the year?), Categorical budget allocation (what are the customers spending on?), Payment mode preferences (does this client prefer to transact online or purchase in-store?)")
 st.markdown("Customer Demographic:")
-st.caption("Customer age groups, Geographical location, Gender, Industry of work, profession")
+st.caption("Customer age groups, Geographical location, Gender, Industry of work, Profession")
 st.markdown("---")
 
 st.image('methodology.png')
-st.caption("These are the five components of the methodology. Problem Scoping create quantifiable goals and objectives.")
+st.caption("These are the five components of the methodology. Problem Scoping was done to create quantifiable goals and objectives, such as ensuring .")
 st.markdown("---")
 
 st.image('adobo_clients.png')
