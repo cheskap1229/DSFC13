@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.title ('HELLO, RISKS, GOODBYE')
-st.image('images/adobo.png')
-st.header('Profiling At-Risk Customers for Cost-Optimization', divider='red')
+st.image('images/adobo.png', width=200)
+st.header('Profiling Churn Risk of Customers for Cost Optimization', divider='red')
 
 st.subheader("The Challenge:")
 st.markdown("Adobo Credit Card strives to optimize sales, boost business performance, and drive customer satisfaction.")
