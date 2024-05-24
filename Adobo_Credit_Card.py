@@ -1,7 +1,6 @@
 import streamlit as st
 
-st.title ('HELLO, RISKS, GOODBYE')
-st.image('images/adobo.png', width=200)
+st.title ('HELLO, RISKS, GOODBYE') st.image('images/adobo.png', width=200)
 st.header('Profiling Churn Risk of Customers for Cost Optimization', divider='red')
 
 st.subheader("The Challenge:")
