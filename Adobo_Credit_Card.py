@@ -17,3 +17,7 @@ st.markdown("Spending Behavior:")
 st.caption("Spending frequency, Seasonal spending trends and patterns, Categorical budget allocation, Payment mode preferences")
 st.markdown("Customer Demographic:")
 st.caption("Customer age groups, Geographical location, Gender, Industry of work, profession")
+st.markdown("---")
+
+st.image('adobo_clients.png')
+
