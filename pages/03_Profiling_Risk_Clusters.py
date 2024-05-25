@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Profiling Risk Clusters")
-st.header("Here you can put each of your key results.", divider = 'red')
+st.header(divider = 'red')
 
 st.subheader('Average Inactivity')
 st.image('purchasing1.png')
