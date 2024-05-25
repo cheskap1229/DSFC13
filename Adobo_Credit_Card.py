@@ -29,7 +29,7 @@ st.markdown("---")
 
 st.image('limitations.png')
 st.markdown("-Customer satisfaction is defined by")
-st.markdown("-Churn is defined as soft churn)
+st.markdown("-Churn is defined as soft churn")
 st.markdown("---")
 
 st.image('demographic.png')
