@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("RFM Segmentation and K-Means Clustering")
+st.title("RFM Segmentation and :red[K-Means Clustering]")
 st.header("Inputting RFM Scores in K-means Outputs 3 customer clusters. Let's take a look at these clusters.", divider = 'red')
 
 st.subheader("RFM Segmentation")
