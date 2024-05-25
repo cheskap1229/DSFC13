@@ -1,11 +1,11 @@
 import streamlit as st
 
 st.title("RFM Segmentation and K-Means Clustering")
-st.header("Here you can put each of your key results.")
+st.header("Inputting RFM Scores in K-means Outputs 3 customer clusters. Let's take a look at these clusters.")
 
 st.subheader("RFM Segmentation")
 st.image('RFM_table.png')
-st.markdown("To quantify the spending habits of ACC clients, the following features will be extracted from the data: recency score, frequency score, and monetary score. Recency Score is set from 1-5, with 1 indicating that the customer's last transaction was more than a year ago and 5 indicating that the customer's last transaction was within a month ago. A Frequency Score of 1 means that the customer has made less than 600 transactions in total while an FS of 4 means that the customer made at least 1800 transactions. Lastly, a customer spending less than $10,000 will obtain a Monetary Score of 1 while spending more than $100,000 will give them a score of 4.")
+st.markdown("To quantify the spending habits of ACC clients, the following features will be extracted from the data: recency score, frequency score, and monetary score. Recency Score is set from 1-5, with 1 indicating that the customer's last transaction was more than a year ago and 5 indicating that the customer's last transaction was within a month ago. A Frequency Score of 1 means that the customer has made less than 600 transactions in total while an FS of 4 means that the customer made at least 1800 transactions. Lastly, a customer spending less than '$10,000' will obtain a Monetary Score of 1 while spending more than '$100,000' will give them a score of 4.")
 st.markdown("---")
 
 st.image('kmeans2.png')
