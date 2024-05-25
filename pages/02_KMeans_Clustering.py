@@ -5,13 +5,14 @@ st.header("Inputting RFM Scores in K-means outputs 3 customer clusters. Let's ta
 
 st.subheader("RFM Segmentation")
 st.image('RFM_table.png')
-st.markdown("To quantify the spending habits of ACC clients, the following features were extracted from the data: recency score, frequency score, and monetary score. Recency Score is set from 1-5, with 1 indicating that the customer's last transaction was more than a year ago and 5 indicating that the customer's last transaction was within a month ago. A Frequency Score of 1 means that the customer has made less than 600 transactions in total while an FS of 4 means that the customer made at least 1800 transactions. Lastly, a customer spending less than \$10,000 will obtain a Monetary Score of 1 while spending more than \$100,000 will give them a score of 4.")
-st.markdown("These Recency, Frequency, and Monetary Scores were then used as the numerical value inputs for K-Means Clstering.")
+st.markdown("To quantify the spending habits of ACC clients, the following features were extracted from the data: Recency Score, Frequency Score, and Monetary Score. Recency Score is set from 1-5, with 1 indicating that the customer's last transaction was more than a year ago and 5 indicating that the customer's last transaction was within a month ago. A Frequency Score of 1 means that the customer has made less than 600 transactions in total while an FS of 4 means that the customer made at least 1800 transactions. Lastly, a customer spending less than \$10,000 will obtain a Monetary Score of 1 while spending more than \$100,000 will give them a score of 4.")
 st.markdown("---")
 
 st.subheader("K-Means Clustering")
+st.markdown("From RFM Segmentation, the Recency, Frequency, and Monetary values were then plugged into K-means, ")
 st.image('kmeans2.png')
-st.caption("K-means")
+st.caption("Sources:")
+st.caption("[1] https://adria708.medium.com/elbow-method-vs-silhouette-co-efficient-in-determining-the-number-of-clusters")
 st.markdown("---")
 
 st.image('kmeans.png')
