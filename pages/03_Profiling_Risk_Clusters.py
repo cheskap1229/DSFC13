@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Profiling Risk Clusters")
-st.header(divider = 'red')
+st.header("Purchasing Habits across Risk Levels", divider = 'red')
 
 st.subheader('Average Inactivity')
 st.image('purchasing1.png')
