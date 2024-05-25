@@ -13,11 +13,10 @@ st.markdown("From RFM Segmentation, the Recency, Frequency, and Monetary values 
 st.markdown("Before the data can be clustered, the number of clusters k must first be evaluated by either the Elbow Method or the Silhouette Score Method. The Silhouette Score Method is favorable when data is skewed or there are duplicates in the data since this method identifies them [1]. However, the team selected the k given by the Elbow Method since the graph shows the typical elbow graph. The sharp decreasing slope in intertia, (which is related to the distance between the points and centroids*) indicates that there is a clear pattern or good clustering in the dataset, which is ideal when choosing the Elbow Method [1].")
 st.image('kmeans2.png')
 st.caption("Sources:")
-st.caption("[1] https://adria708.medium.com/elbow-method-vs-silhouette-co-efficient-in-determining-the-number-of-clusters")
-#st.caption("[2] https://www.codecademy.com/learn/dspath-unsupervised/modules/dspath-clustering/cheatsheet")
-st.markdown("---")
 
 st.image('kmeans.png')
-st.caption("K-means")
-st.markdown("Three clusters were generated from K-means: From this data it can be seen that high-risk customers are defined The data science team defines high-risk customers as those with low RFM scores, since these ho have not made  with low recency To successfully cluster")
+st.markdown("As seen in the radial plots below, three clusters were generated from K-means. The group observed that Cluster 0 could be consideres as customers who were at high-risk of churning because they had been inactive for several months, had the lowest total amount spent among the three clusters, and also had the lowest transaction volume. Cluster 1 is considered mid tier risk, with medium activity level, average spending compared to the other clusters, and average transaction volume as well. Lastly, Cluster 2 is categorized as customers with low churn risk because of their high activity level, high spending, and average transaction volume.")
 st.markdown("---")
+
+st.caption("[1] https://adria708.medium.com/elbow-method-vs-silhouette-co-efficient-in-determining-the-number-of-clusters")
+#st.caption("[2] https://www.codecademy.com/learn/dspath-unsupervised/modules/dspath-clustering/cheatsheet")
