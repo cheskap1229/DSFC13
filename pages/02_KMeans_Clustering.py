@@ -9,6 +9,7 @@ st.markdown("To quantify the spending habits of ACC clients, the following featu
 st.markdown("These Recency, Frequency, and Monetary Scores were then used as the numerical value inputs for K-Means Clstering.")
 st.markdown("---")
 
+st.subheader("K-Means Clustering")
 st.image('kmeans2.png')
 st.caption("K-means")
 st.markdown("---")
