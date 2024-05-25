@@ -20,7 +20,9 @@ st.caption("Customer age groups - is this customer a Boomer? a Gen X?, Geographi
 st.markdown("---")
 
 st.image('methodology.png')
-st.caption("The scope of the problem is that there is a category of customers who are at high risk of churning. The goal is to propose strategies to encourage these users to be more active credit card users, while ensuring the continued customer satisfaction Problem Scoping initiated by the discovery that the customers could be clustered into risk levels. this is the main issue we want to solve. high-risk customers must be contacted personally during specifc periods of inactivity. we want to encourage mid risk to lower their being risk by increasing their rfm scores. we want to further engage low risk customers and ensure the ACC product continues to be satisfactory (meaning they use their card frequently) was done to create quantifiable goals and objectives, such as ensuring .")
+st.caption("The scope of the problem is that there is a category of customers who are at high risk of churning. The goal is to propose strategies to encourage these users to be more active credit card users, while ensuring the continued customer satisfaction of loyal customers.")
+st.caption("Data Cleaning and Preprocessing involved removing duplicates, turning number strings into numerical data types, and extracting data from other columns and creating new columns with a more usable format.")
+st.caption("EDA, Customer Segmentation, Clustering, and Insights will be discussed in the next pages.")
 st.markdown("---")
 
 st.image('adobo_clients.png')
@@ -28,12 +30,9 @@ st.caption("Who are the Adobo clients? Based on 100,000 transaction data points 
 st.markdown("---")
 
 st.image('limitations.png')
-st.markdown("-Customer satisfaction is defined by")
-st.markdown("-Churn is defined as soft churn")
-st.markdown("---")
-
-st.image('demographic.png')
-st.caption("Demographic")
-st.markdown("---")
+st.markdown("-All customer accounts are assumed to be currently open/active. It is assumed that all customers made purchases soon after acquiring their credit cards.")
+st.markdown("-Churn is defined as soft churn, or the increased likelihood of a customer cancelling their card due to inactivity.")
+st.markdown("-Low credit card utilization leads to higher chances of cancellation.")
+st.markdown("-High customer spending indicates high engagement and stronger customer loyalty, and thus longer customer relationships with the company.")
 
 
