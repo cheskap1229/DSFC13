@@ -9,10 +9,12 @@ st.markdown("To quantify the spending habits of ACC clients, the following featu
 st.markdown("---")
 
 st.subheader("K-Means Clustering")
-st.markdown("From RFM Segmentation, the Recency, Frequency, and Monetary values were then plugged into K-means, ")
+st.markdown("From RFM Segmentation, the Recency, Frequency, and Monetary values were then plugged into the K-means clustering algorithm, which first computes k number of clusters using one of 2 methods.")
+st.markdown("Before the data can be clustered, the number of clusters k must first be evaluated by either the Elbow Method or the Silhouette Score Method. The Silhouette Score Method is favorable when data is skewed or there are duplicates in the data since this method identifies them [1]. However, the team selected the k given by the Elbow Method since the graph shows the typical elbow graph. The sharp decreasing slope in intertia, (which is related to the distance between the points and centroids*) indicates that there is a clear pattern or good clustering in the dataset, which is ideal when choosing the Elbow Method [1].")
 st.image('kmeans2.png')
 st.caption("Sources:")
 st.caption("[1] https://adria708.medium.com/elbow-method-vs-silhouette-co-efficient-in-determining-the-number-of-clusters")
+#st.caption("[2] https://www.codecademy.com/learn/dspath-unsupervised/modules/dspath-clustering/cheatsheet")
 st.markdown("---")
 
 st.image('kmeans.png')
