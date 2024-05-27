@@ -4,6 +4,7 @@ st.image('images/adobo.png', width=100)
 st.title ('HELLO, :red[RISKS], GOODBYE.') 
 st.header('Profiling Churn Risk of Customers for Cost Optimization', divider='red')
 st.caption('Group 1 Exp1orers - Francesca Panga | Jacob Fuentebella | Jersy | Leonard Inciso | Lester Covarrubias II')
+st.markdown("---")
 
 st.subheader("The Challenge:")
 st.markdown("Adobo Credit Card (ACC) strives to optimize sales, boost business performance, and drive customer satisfaction.")
